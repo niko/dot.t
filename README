@@ -1,0 +1,49 @@
+This is dot.t - a textile and syntax highlighting extension for S5 (http://meyerweb.com/eric/thoughts/category/tech/s5/) (then dubbed a S5.t) and slidy (http://www.w3.org/Talks/Tools/Slidy/) (slidy.t).
+
+To make this work you need two more things:
+
+* The Javascript Syntaxhighlighter: http://code.google.com/p/syntaxhighlighter/
+* The fabulous js.tile textile implementation in Javascript: http://github.com/niko/js.tile/tree/master
+
+The create a directory structure like this inside your presentation directory:
+
+your_s5_presentation/
+|--dot_t/
+|----README                         (this file)
+|----dot_t.js                       (in this repo)
+|----js_tile/                       (from github.com/niko/js.tile/tree/master)
+|----SyntaxHighlighterOverrides.css (in this repo)
+|----syntaxhighlighter/             (from code.google.com/p/syntaxhighlighter)
+|----your_presentation.html         (the html file with your presentation)
+|--pix/                             (standard S5 pix directory)
+|--ui/                              (standard S5 theme directory)
+|----default/                       (standard S5 default theme)
+
+
+After having done this, you can write your presentations like this:
+
+<div class="presentation">
+h1. Title Slide
+
+* it's about this
+* and that
+
+::slide::
+
+h1. Another slide
+
+::ruby
+def awesome
+  return true (if self.class == S5DotT)
+end
+ruby::
+
++ getting
++ incrementally
++ better
+
+</div>
+
+where div.presentation is the normal presentation div of your S5 or Slidy template.
+
+Have fun!

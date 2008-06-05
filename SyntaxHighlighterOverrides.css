@@ -1,0 +1,15 @@
+﻿.dp-highlighter{
+	font-size: 80%;
+	margin-left:5%;
+	margin-right:7%;
+}
+
+.dp-highlighter ol{
+	margin: 0px 0px 1px 3em !important; /* 1px bottom margin seems to fix occasional Firefox scrolling */
+}
+
+.dp-highlighter ol li{
+	border-left:3px solid #77563B;
+}
+
+
