@@ -1,0 +1,3 @@
+[submodule "js_tile"]
+	path = js_tile
+	url = git://github.com/niko/js.tile.git
