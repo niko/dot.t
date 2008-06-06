@@ -1,7 +1,8 @@
 ﻿.dp-highlighter{
-	font-size: 80%;
-	margin-left:5%;
-	margin-right:7%;
+	font-size: 75%;
+	margin-left: 5% !important;
+	width:85%;
+	overflow: hidden;
 }
 
 .dp-highlighter ol{
@@ -10,6 +11,8 @@
 
 .dp-highlighter ol li{
 	border-left:3px solid #77563B;
+	height:1.3em;
+	line-height:1.3em;
 }
 
 

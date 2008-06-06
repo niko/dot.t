@@ -1,4 +1,4 @@
-document.write('<script type="text/javascript" src="dot_t/js_tile/js_tile.js"></script>');
+lkadjfldocument.write('<script type="text/javascript" src="dot_t/js_tile/js_tile.js"></script>');
 
 document.write('<link rel="stylesheet" href="dot_t/syntaxhighlighter/SyntaxHighlighter.css" type="text/css" />');
 document.write('<link rel="stylesheet" href="dot_t/syntaxhighlighter/shBrushCss.js"></script>');

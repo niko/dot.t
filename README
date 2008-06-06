@@ -20,6 +20,14 @@ your_s5_presentation/
 |----default/                       (standard S5 default theme)
 
 
+If you have git (you should), the easiest way is:
+
+# cd your_presentation
+# git clone git://github.com/niko/dot.t.git
+# cd cd dot.t/
+# git submodule init
+# git submodule update
+
 After having done this, you can write your presentations like this:
 
 <div class="presentation">
