@@ -1,7 +1,7 @@
 ﻿.dp-highlighter{
 	font-size: 75%;
-	margin-left: 5% !important;
-	width:85%;
+/*	margin-left: 5% !important;*/
+/*	width:85%;*/
 	overflow: hidden;
 }
 
@@ -13,6 +13,15 @@
 	border-left:3px solid #77563B;
 	height:1.3em;
 	line-height:1.3em;
+}
+
+.dp-highlighter:hover ol li{
+	background-color:#999;
+}
+
+
+.dp-highlighter ol li:hover{
+	background-color:white;
 }
 
 
